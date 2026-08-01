@@ -2,7 +2,7 @@
 
 A full-stack e-commerce web application for a custom cake and bakery business, built with React, Node.js/Express, and PostgreSQL. Customers can browse the menu, manage a cart, place orders, and leave reviews, while administrators have a dedicated dashboard to manage products, orders, and reviews in real time.
 
-**Live Application:** [https://your-app.vercel.app](https://your-app.vercel.app)
+**Live Application:** [https://your-app.vercel.app](https://sweet-craft-bakery.vercel.app/)
 **Backend API:** [https://sweetcraft-bakery-production.up.railway.app](https://sweetcraft-bakery-production.up.railway.app)
 
 ---
