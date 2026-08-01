@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "SweetCraft Bakery Oracle Backend API",
+  "description": "SweetCraft Bakery Backend API (PostgreSQL / Neon)",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -18,8 +18,7 @@
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
-    "mysql2": "^3.23.1",
-    "oracledb": "^7.0.1"
+    "pg": "^8.13.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
