@@ -1,0 +1,17 @@
+# Dependencies (huge, everyone re-installs these with npm install)
+node_modules/
+frontend-admin/node_modules/
+frontend-customer/node_modules/
+backend/node_modules/
+
+# Secrets — NEVER upload passwords/keys to GitHub
+.env
+backend/.env
+
+# Build output
+frontend-admin/build/
+frontend-customer/build/
+
+# OS/editor junk
+.DS_Store
+*.log
