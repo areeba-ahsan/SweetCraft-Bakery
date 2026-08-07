@@ -4,7 +4,9 @@
 // automatically, and centralizes the base URL.
 // ============================================================
 
-const API_BASE = 'http://localhost:5000/api';
+// Reads the deployed backend URL from Vercel's REACT_APP_API_BASE_URL
+// environment variable. Falls back to localhost only for local development.
+const API_BASE = process.env.REACT_APP_API_BASE_URL || 'http://localhost:5000/api';
 
 function getToken() {
   return localStorage.getItem('sweetcraft_token');
